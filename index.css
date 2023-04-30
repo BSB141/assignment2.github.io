@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    overflow-x: hidden;
+}
+html {
+    font-size: 62.5%;
+}
+.xl-font{
+    font-size: 6rem;
+    margin-bottom: 2rem;
+}
+.lg-font{
+    font-size: 4rem;
+}
+.md-font{
+    font-size: 3rem;
+}
+.in-btw-font{
+    font-size: 2rem;
+}
+.xs-text{
+    font: 1.8rem;
+}
+.para-font{
+    font-size: 1.6rem;
+}
+.text-center{
+    text-align: center;
+}
+.text-caps{
+    text-transform: capitalize;
+}
+.text-bold{
+    font-weight: 600;
+}
+.text-blue{
+    color: #4471ad;
+}
+.text-light{
+    color: #a1d1cb;
+}
+/* ###################### navbar styling ###################### */
+#navbar input[type="checkbox"],
+#navbar #lines{
+    display: none;
+}
+#navbar{
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: sticky;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    background-color: #c8e3e5;
+    color: #000;
+    z-index: 1000;
+}
+#hamburger{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+#menu{
+    float: left;
+    order: 2;
+    display: flex;
+    margin-top: 1.8rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+#menu > div{
+    margin-left: 4.5rem;
+    font-size: 1.8rem;
+}
+#menu div a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.6rem;
+}
+#menu div a:last-child{
+    margin-bottom: 1rem;
+}
+#a007--{
+    color: #000;
+    font-weight: 500;
+}
+.a007--{
+    color: #000;
+    font-weight: 500;
+}
+#home-box a{
+    font-weight: 500;
+}
+#menu > div a:hover{
+    color: #fff;
+}
+#logo{
+    width: 200px;
+}
+#logo-content-box img{
+    padding-top: 2.6rem;
+    margin-left: 2rem;
+}
+
+/* ################## header sub headings ################### */
+.btn-content{
+    border: none;
+    cursor: pointer;
+    background-color: #c8e3e5;
+    font-size: 1.6rem;
+    display: block !important;
+}
+.drop-btn-box{
+    position: relative;
+    display: inline-block;
+}
+#btn100{
+    background-color: #16a083;
+    border: none;
+    border-radius: 20px;
+    padding: .8rem;
+}
+#btn100 a:hover{
+    color: #000 !important;
+}
+.dropdown-container{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 250px;
+    left: 0;
+}
+#drop-container101{
+    width: 350px !important;
+}
+.dropdown-container a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    padding: 0 1.5rem;
+}
+.dropdown-container a:hover{
+    color: #fff !important;
+    background-color: #00cdac !important;
+}
+.drop-btn-box:hover .dropdown-container{
+    display: block;
+}
+.drop-btn-box:hover .btn-content{
+    background-color: #c8e3e5;
+}
+
+/* ######################### screen 1 styling########################## */
+
+.water-logo{
+    margin-top: 10rem;
+    width: 900px;
+    height: 60vh;
+}
+.quote{
+    display: flex;
+}
+.contentbox{
+    margin-top: 20rem;
+}
+.content-box1{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.content-box1 p{
+    width: 70%;
+    margin: auto;
+}
+.main-content{
+    width: 90%;
+    margin: auto;
+}
+
+/* ########################### showcase styling ############################## */
+#showcase{
+    background-color: #daecec;
+    padding: 3rem 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    height: 400px;
+    background-color: #fff;
+}
+.row1{
+    margin-bottom: 10rem;
+}
+.row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+}
+.row2 .img-box, .row1 .text-box{
+    float: right;
+    width: 50%;
+}
+.row .img-box{
+    height: 100%;
+}
+.row .text-box{
+    padding: 3rem;
+}
+.row .img-box img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.row h1{
+    text-transform: uppercase;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-box p+p{
+    font-size: 2.5rem;
+}
+.text-box p{
+    margin-bottom: 1rem;
+}
+.row a{
+    text-decoration: none;
+}
+.row a{
+    font-size: 1.8rem;
+    display: inline-block;
+    padding: 1em 2.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 1em 0;
+    background-color: #fff;
+    border-radius: 2.5em;
+    color: #4470b0;
+    border: 2px solid #4470b0;
+}
+.row{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#showcase a:hover{
+    background-color: #e7f2f5;
+}
+
+/* ######################### flex-box styling ############################# */
+
+.rowwrap1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rowwrap2{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+.box11{
+    padding: 0 2rem;
+}
+.heading{
+    margin-bottom: 1rem;
+}
+.rowwrap2 >div p{
+    font-size: 1.8rem;
+}
+.rowwrap1 >div p{
+    font-size: 1.8rem;
+}
+.rowwrap1 div{
+    width: 30%;
+}
+.row-wrapper{
+    border: 1px solid;
+    height: 90vh;
+    width: 80%;
+    margin: auto;
+    padding: 10rem;
+    background-color: #f0f7f6;
+}
+.box10, .box11{
+    border-right: 1px solid;
+    height: 250px;
+}
+.box12::after{
+    content: '';
+    width: 1px;
+    height: 30px;
+    background-color: #000;
+}
+.box12{
+    border-left: 1px solid;
+    padding: 2rem 3rem;
+}
+.box15{
+    font-size:0;
+    width: 750px;
+    height:1px;
+    color:#fff;
+    background-color:#000;
+    margin:auto;
+    transform: rotate(90deg);
+}
+.why-water{
+    margin-top: 3rem;
+}
+.box13{
+    border-right: 1px solid;
+    padding: 2rem 3rem;
+}
+.rowwrap1{
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+
+/* ############################# why water ################################ */
+
+.colwrap1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.colwrap2{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+.box21{
+    padding: 0 2rem;
+}
+.heading{
+    margin-bottom: 1rem;
+}
+.colwrap2 >div p{
+    font-size: 1.8rem;
+}
+.colwrap1 >div p{
+    font-size: 1.8rem;
+}
+.colwrap1 div{
+    width: 30%;
+}
+.col-wrapper{
+    border: 1px solid;
+    height: 85vh;
+    width: 80%;
+    margin: auto;
+    padding: 10rem;
+    background-color: #f0f7f6;
+}
+.box20, .box21{
+    border-right: 1px solid;
+    height: 250px;
+}
+.box22::after{
+    content: '';
+    width: 1px;
+    height: 30px;
+    background-color: #000;
+}
+.box22{
+    border-left: 1px solid;
+    padding: 2rem 3rem;
+}
+.box25{
+    font-size:0;
+    width: 330px;
+    height:1px;
+    color:#fff;
+    background-color:#000;
+    margin:auto;
+    transform: rotate(90deg);
+}
+.why-water{
+    margin-top: 3rem;
+}
+.box23{
+    border-right: 1px solid;
+    padding: 2rem 3rem;
+}
+.colwrap1{
+    border-bottom: 1px solid;
+    margin: auto;
+}
+.col-wrapper .paragraph{
+    margin: 2rem 0 0 4rem;
+}
+.col-wrapper .paragraph1{
+    margin: 2rem 0 0 3rem;
+}
+/* ################### contact styling ################### */
+
+
+#contact{
+    background-color: rgb(226, 226, 226);
+    padding: 5em 0;
+}
+#big-row{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    background-color: #fff;
+}
+#big-row img{
+    width: 600px
+}
+#big-row img{
+    display: block;
+    height: 355px;
+    object-fit: cover;
+    object-position: center;
+    /* width: 100%; */
+}
+#form-box{
+    padding: 1rem;
+    width: 600px;
+    margin: auto;
+}
+input[type = "text"]{
+    display: block;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    width: 100%;
+    padding: 1rem 0;
+    margin-bottom: 1rem 0;
+    outline: none;
+    color: #444;
+    font-weight: 500;
+    box-shadow: none;
+}
+textarea{
+    display: block;
+    border: none; 
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+    padding: 1rem 0;
+}
+#form-box h2{
+    font-size: 3rem;
+    color: #444;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.contactanchor{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.6rem 2rem;
+    border-radius: 2rem;
+    margin-top: 10px;
+    background-color: #c8e3e5;
+}
+input[type = "submit"]{
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #117964;
+    padding: 1rem 2rem;
+    border: 1px solid #117964;
+    border-radius: 30px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+/* ######################## footer styling ################################ */
+.foot-section{
+    height: auto;
+    background-color: #e1d7d7;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer>div>p{
+    text-align: center;
+    padding: 8px 0;
+    font-size: 12px;
+    text-transform: capitalize;
+}

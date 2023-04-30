@@ -1,0 +1,11 @@
+@media all and (min-width: 1334px) and (max-width: 1600px){
+    .text-box h1+p{
+        font-size: 2.5rem;
+    }
+    .row .text-box {
+        padding: 1.5rem;
+    }
+    .text-box h1{
+        font-size: 3rem;
+    }
+}
